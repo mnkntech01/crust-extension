@@ -1,0 +1,96 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "yarn install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "dev": {
+      "name": "dev",
+      "command": "yarn dev",
+      "runAtStart": true,
+      "preview": {
+        "port": 3000
+      }
+    },
+    "dev-firefox": {
+      "name": "dev-firefox",
+      "command": "yarn dev-firefox",
+      "runAtStart": false
+    },
+    "build": {
+      "name": "build",
+      "command": "yarn build",
+      "runAtStart": false
+    },
+    "build-firefox": {
+      "name": "build-firefox",
+      "command": "yarn build-firefox",
+      "runAtStart": false
+    },
+    "compress": {
+      "name": "compress",
+      "command": "yarn compress",
+      "runAtStart": false
+    },
+    "compress-keygen": {
+      "name": "compress-keygen",
+      "command": "yarn compress-keygen",
+      "runAtStart": false
+    },
+    "clean": {
+      "name": "clean",
+      "command": "yarn clean",
+      "runAtStart": false
+    },
+    "lint": {
+      "name": "lint",
+      "command": "yarn lint",
+      "runAtStart": false
+    },
+    "test-e2e": {
+      "name": "test-e2e",
+      "command": "yarn test-e2e",
+      "runAtStart": false
+    },
+    "test": {
+      "name": "test",
+      "command": "yarn test",
+      "runAtStart": false
+    },
+    "cov": {
+      "name": "cov",
+      "command": "yarn cov",
+      "runAtStart": false
+    },
+    "jest": {
+      "name": "jest",
+      "command": "yarn jest",
+      "runAtStart": false
+    },
+    "lint:staged": {
+      "name": "lint:staged",
+      "command": "yarn lint:staged",
+      "runAtStart": false
+    },
+    "prettier": {
+      "name": "prettier",
+      "command": "yarn prettier",
+      "runAtStart": false
+    },
+    "bundle-report": {
+      "name": "bundle-report",
+      "command": "yarn bundle-report",
+      "runAtStart": false
+    },
+    "bundle-report-firefox": {
+      "name": "bundle-report-firefox",
+      "command": "yarn bundle-report-firefox",
+      "runAtStart": false
+    }
+  }
+}
